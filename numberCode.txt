@@ -1,0 +1,86 @@
+999 = proceed to next scene
+600 = choice screen
+
+0 = ONE image --> 1 ~ 56
+1 = background image --> 101 ~ 115
+2 = character image
+
+
+0... one image
+ ... 1: normal
+ ... 2: smile
+ ... 3: confused
+ ... 4: angry
+ ... 5: reconcilation
+ ... 6: DERE
+ ... 7: blant
+ ... 8: bit confused
+ ... 9: tears 
+
+ ... 57: glass case
+
+100... background image
+   ... 101: park (morning)
+   ... 102: school
+   ... 103: classroom (morning)
+   ... 104: cooridor
+   ... 105: karaoke
+   ... 106: shopping mall
+   ... 107: restaurant
+   ... 108: classroom (evening)
+   ... 109: living room
+   ... 110: theatre
+   ... 111: downtown
+   ... 112: park (evening)
+   ... 113: train
+   ... 114: getabako
+   ... 115: station
+
+200... character image
+   ... 201: sean
+   ... 202: multiple mobs
+   ... 203: girl A
+   ... 204: girl B
+   ... 205: girl C
+   ... 206: guy A
+   ... 207: guy B
+   ... 208: guy C
+
+600 ... choice screen 
+    ... 1: karaoke --> 6; F,L
+    ... 2: game --> 7; F
+    ... 3: Tag --> 8; 
+    ... 4: mall --> 9 L
+    ... ... ... ... return by 701
+
+    ... 5: Idol MV --> 10; L
+    ... 6: Pet video --> 11; 
+    ... 7: movie --> 12; F,L
+    ... 8: Stand-up Comedy --> 13; F
+    ... ... ... ... return by 702
+   
+    ... 9: Science --> 14; F
+    ... 10: Reading --> 15; F,L
+    ... 11: Social Studies --> 16; L
+    ... 12: Math --> 17; 
+    ... ... ... ... return by 703
+
+    ... 13: Coffee --> 18;
+    ... 14: Notebook --> 19; F
+    ... 15: Cake --> 20; L
+    ... 16: Letter Set --> 21; F,L
+    ... ... ... ... return by 704
+
+    ... 17: Only one --> 22; F,L
+    ... 18: Only sean --> 23;
+    ... 19: One and sean --> 24;
+    ... 20: Everyone --> 25; F
+    ... 21: alone --> 26;
+    ... 22: Sean and One --> 27; 
+    ... ... ... ... return by 705
+
+    ... 23: ZeroToOne
+    ... 24: OneToTwo
+    ... 25: TwoToThree
+    ... 26: ThreeToFour
+    ... 27: FourToFive

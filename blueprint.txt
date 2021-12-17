@@ -1,0 +1,70 @@
+[major varibles]
+> ONE level: 0 ~ 5
+> friend point
+> love point
+
+[page component]
+> start page
+-----start game
+-----load game*
+-----collection*
+-----options
+
+[game]
+page itself will not change;
+only the elements will change if necessary
+-----[elements]
+----------background
+----------textbox
+----------character 
+----------sean icon
+
+[textbox]
+-----text
+-----next button
+-----skip button
+-----option button
+-----log*
+
+[game flow] * default background:black
+1. press "start game" button
+2. (modal: choose character name)
+3. (modal: confirm character name)
+4. sequence part 1
+    ----- background: park, school
+    ----- character: one, sean
+5. sequence: part 2
+    ----- background: cooridor, classroom
+    ----- character: one, sean
+    ----- options: Q) what do you want to do?
+                    1) Karaoke; love, friend, evolve, background:Karaoke
+                    2) Game; friend
+                    3) Tag; null
+                    4) Shopping; love, evolve, background: shopping mall
+
+6. sequence: part 3
+    ----- background: restaurant
+    ----- character: one, sean
+    ----- options: Q) What videos do you watch?
+                    1) Idol's music video; lo, evolve
+                    2) Cute animal vids; friend
+                    3) Cooking vids; love, friend
+                    4) standup comedy; null 
+
+7. sequence: part 4
+    ----- background: classroom
+    ----- character: one
+    ----- options: Q) what is your favorite subject?
+                    1) science; friend
+                    2) reading; love, friend
+                    3) social studies; love
+                    4) math; null
+
+7. sequence: part 5
+    ----- background: classroom
+    ----- character: one, sean
+    ----- options: Q) you want to buy yourself a present, what will you buy?
+                    1) favorite coffee bean; null 
+                    2) expensive notebook; friend
+                    3) delicious cake; love
+                    4) fancy letter set; love, friend
